@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Redux-Toolkit-Thunk-Book-App/static/css/main.48f1858f.css",
+    "main.js": "/Redux-Toolkit-Thunk-Book-App/static/js/main.8f81447b.js",
+    "index.html": "/Redux-Toolkit-Thunk-Book-App/index.html",
+    "main.48f1858f.css.map": "/Redux-Toolkit-Thunk-Book-App/static/css/main.48f1858f.css.map",
+    "main.8f81447b.js.map": "/Redux-Toolkit-Thunk-Book-App/static/js/main.8f81447b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48f1858f.css",
+    "static/js/main.8f81447b.js"
+  ]
+}
