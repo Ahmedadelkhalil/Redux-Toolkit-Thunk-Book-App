@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 !important;
+}
+.data-info {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.book-name,
+.book-price,
+.book-author,
+.book-des {
+  font-size: 20px;
+}
+.book-name {
+  color: blue;
+}
+.book-price {
+  color: crimson;
+}
+.book-author {
+  color: green;
+}
+.book-des {
+  color: darkmagenta;
+}
+.col {
+  background-color: burlywood;
+  padding: 30px;
+  margin: 5px;
+}
+.inside-the-col-left-one {
+  max-height: 350px;
+  overflow-y: auto;
+}
+@media screen and (max-width: 800px) {
+  .row {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+    padding: 20px;
+  }
+}
